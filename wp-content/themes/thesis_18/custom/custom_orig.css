@@ -1,0 +1,54 @@
+/*
+File:			custom.css
+Description:	Custom styles for Molehill Website
+
+/* remove "Comments Closed" on posts and pages */
+.custom .comments_closed p {
+	display: none;
+}
+
+/* remove all borders everywhere */
+.custom .custom .post, .custom .teasers_box, .custom #footer, .custom #footer a, .custom #footer a:active, .custom #archive_info, .custom .prev_next, .custom #comment_list, .custom #comment_list dd, .custom #commentform, .custom #sidebar_1, .custom #sidebar_2, .custom #comment_list dt.comment, .custom #comment_list dd.comment, .custom #comment_list dl .bypostauthor .format_text, .custom #trackback_list {
+	border-bottom: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	background:none repeat scroll 0 0 white;
+}
+
+.custom a:hover{
+text-decoration: underline;
+}
+
+.custom #header {
+	border-bottom: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	margin-top: 20px;
+}
+.custom #content {
+	margin-left: -8px;
+
+}
+
+.custom #post-2 {
+margin-top: -40px;
+}
+.custom #content_box, .custom #column_wrap {
+	background: none;
+}
+
+/* menu configuration */
+.custom #menu {
+	margin-left: -4px;
+	margin-bottom: 20px;
+}
+
+
+.custom #upcoming {
+float: left;
+}
+.custom #past {
+float: left;
+}
